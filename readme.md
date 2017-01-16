@@ -1,9 +1,9 @@
 ### Manual Setup
 
-To manually set up the template, first download it with Git:
+Download project with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-zurb-template projectname
+https://github.com/naya50636185/grandcapital.git
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
