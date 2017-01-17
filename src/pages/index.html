@@ -1,39 +1,59 @@
 <div class="row white-background">
     <div class="row text-center">
-        <h1>Принцип работы ECN-счета</h1>
+        <h1 class="padding-bottom-35">Принцип работы ECN-счета</h1>
     </div>
     <div class="row">
         <div class="medium-4 columns">
             <div class="input-data">
                 <div class="input-data__block">
-                    <img src="" alt="Банк 1">
-                    <div class="input-data__name">Банк 1</div>
-                    <div class="input-data__text"></div>
+                    <div class="input-data__info">
+                        <img src="{{root}}assets/img/bank_1.png" alt="Банк 1">
+                        <div class="input-data__name">Банк 1</div>
+                    </div>
+                    <div class="input-data__text">
+                        <div class="input-data__bid"><b>Bid</b> - 1.27458</div>
+                        <div class="input-data__ask"><b>Ask</b> - 1.27476</div>
+                    </div>
                 </div>
                 <div class="input-data__block">
-                    <img src="" alt="Банк 2">
-                    <div class="input-data__name">Банк 2</div>
-                    <div class="input-data__text"></div>
+                    <div class="input-data__info">
+                        <img src="{{root}}assets/img/bank_2.png" alt="Банк 2">
+                        <div class="input-data__name">Банк 2</div>
+                    </div>
+                    <div class="input-data__text">
+                        <div class="input-data__bid"><b>Bid</b> - 1.27458</div>
+                        <div class="input-data__ask"><b>Ask</b> - 1.27476</div>
+                    </div>
                 </div>
                 <div class="input-data__block">
-                    <img src="" alt="Банк 3">
-                    <div class="input-data__name">Банк 3</div>
-                    <div class="input-data__text"></div>
+                    <div class="input-data__info">
+                        <img src="{{root}}assets/img/bank_3.png" alt="Банк 3">
+                        <div class="input-data__name">Банк 3</div>
+                    </div>
+                    <div class="input-data__text">
+                        <div class="input-data__bid"><b>Bid</b> - 1.27458</div>
+                        <div class="input-data__ask"><b>Ask</b> - 1.27476</div>
+                    </div>
                 </div>
                 <div class="input-data__block">
-                    <img src="" alt="Банк 4">
-                    <div class="input-data__name">Банк 4</div>
-                    <div class="input-data__text"></div>
+                    <div class="input-data__info">
+                        <img src="{{root}}assets/img/bank_4.png" alt="Банк 4">
+                        <div class="input-data__name">Банк 4</div>
+                    </div>
+                    <div class="input-data__text">
+                        <div class="input-data__bid"><b>Bid</b> - 1.27458</div>
+                        <div class="input-data__ask"><b>Ask</b> - 1.27476</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="medium-4 columns">
+        <div class="medium-4 columns text-center">
             <div class="logo">
-                <img src="" alt="Логотип Grand Capital">
+                <img src="{{root}}assets/img/logo_gc.png" alt="Логотип Grand Capital">
             </div>
             <h2>ECN-агрегатор</h2>
             <div class="table-data">
-                <table>
+                <table class="unstriped">
                     <thead>
                     <tr>
                         <th>providers</th>
@@ -45,7 +65,7 @@
                     <tbody>
                     <tr>
                         <td>Банк 1</td>
-                        <td>1.27458</td>
+                        <td class="red-column">1.27458</td>
                         <td>1.27476</td>
                         <td>1.8 pips</td>
                     </tr>
@@ -64,7 +84,7 @@
                     <tr>
                         <td>Банк 4</td>
                         <td>1.27453</td>
-                        <td>1.27460</td>
+                        <td class="yellow-column">1.27460</td>
                         <td>0.7 pips</td>
                     </tr>
                     </tbody>
@@ -72,12 +92,62 @@
             </div>
         </div>
         <div class="medium-4 columns">
-
+            <div class="output-data">
+                <div class="medium-6 columns">
+                    <div class="output-data__sell">
+                        <div class="output-data__count">1.27458</div>
+                        <div class="output-data__name">sell</div>
+                    </div>
+                </div>
+                <div class="medium-6 columns">
+                    <div class="output-data__buy">
+                        <div class="output-data__count">1.27462</div>
+                        <div class="output-data__name">buy</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
 
 <div class="row">
     <div class="header">Начни зарабатывать c Grand Capital</div>
+    <ul class="list-style-numbers">
+        <li>
+            <div class="list-style-numbers__text">
+                <div class="list-style-numbers__header">
+                    Зарегистрируйтесь и откройте счет
+                </div>
+                Вы&nbsp;также можете открыть учебный демо-счет, чтобы понять принципы торговли.
+            </div>
+        </li>
+        <li>
+            <div class="list-style-numbers__text">
+                <div class="list-style-numbers__header">
+                    Установите программу или откройте веб-трейдер в&nbsp;браузере
+                </div>
+                Для работы на&nbsp;Forex необходима торговая платформа. Для вашего удобства мы&nbsp;предлагаем терминал
+                Metatrader,который вы&nbsp;можете бесплатно установить с&nbsp;нашего сайта, и&nbsp;веб-трейдер
+                для онлайн торговли в&nbsp;браузере.
+            </div>
+        </li>
+        <li>
+            <div class="list-style-numbers__text">
+                <div class="list-style-numbers__header">
+                    Выберите торговую стратегию
+                </div>
+                Спрогнозируйте, возрастет или снизится цена на&nbsp;выбранный вами актив,
+                и&nbsp;на&nbsp;основе прогноза сделайте ставку на&nbsp;продажу или покупку.
+            </div>
+        </li>
+        <li>
+            <div class="list-style-numbers__text">
+                <div class="list-style-numbers__header">
+                    Получайте прибыль
+                </div>
+                Средства, полученные от&nbsp;торговли, вы&nbsp;можете вывести любым удобным способом.
+                Мы&nbsp;гарантируем быстрые операции с&nbsp;любыми суммами.
+            </div>
+        </li>
+    </ul>
 </div>
