@@ -205,4 +205,12 @@ ul.list-style-numbers {
   }
 }
 
+@media all and (max-width: 64rem) {
+  .input-data:after {
+    display: none;
+  }
 
+  .table-data:after {
+    display: none;
+  }
+}
